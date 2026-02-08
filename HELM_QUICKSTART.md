@@ -11,17 +11,28 @@ helm lint fintech-gitops/apps/<service>/chart
 
 ## Render Manifests (Dev)
 ```bash
-helm template <service> fintech-gitops/apps/<service>/chart   -f fintech-gitops/apps/<service>/chart/values.yaml   -f fintech-gitops/apps/<service>/chart/values-dev.yaml
+helm template <service> fintech-gitops/apps/<service>/chart \
+  -f fintech-gitops/apps/<service>/chart/values.yaml \
+  -f fintech-gitops/apps/<service>/chart/values-dev.yaml
 ```
 
 ## Render Manifests (Staging)
 ```bash
-helm template <service> fintech-gitops/apps/<service>/chart   -f fintech-gitops/apps/<service>/chart/values.yaml   -f fintech-gitops/apps/<service>/chart/values-staging.yaml
+helm template <service> fintech-gitops/apps/<service>/chart \
+  -f fintech-gitops/apps/<service>/chart/values.yaml \
+  -f fintech-gitops/apps/<service>/chart/values-staging.yaml
 ```
 
 ## Render Manifests (Prod)
 ```bash
-helm template <service> fintech-gitops/apps/<service>/chart   -f fintech-gitops/apps/<service>/chart/values.yaml   -f fintech-gitops/apps/<service>/chart/values-prod.yaml
+helm template <service> fintech-gitops/apps/<service>/chart \
+  -f fintech-gitops/apps/<service>/chart/values.yaml \
+  -f fintech-gitops/apps/<service>/chart/values-prod.yaml
+```
+
+## Manual Argo CD Sync (Optional)
+```bash
+argocd app sync <service>
 ```
 
 ## Troubleshooting
