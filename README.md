@@ -9,6 +9,9 @@
 
 ## Core Documents
 - [Vault + ESO Mapping](VAULT_ESO_MAPPING.md)
+- [Vault Bootstrap Checklist](VAULT_BOOTSTRAP_CHECKLIST.md)
+- [Helm Quick-Start](HELM_QUICKSTART.md)
+- [First Cluster Deployment](FIRST_CLUSTER_DEPLOYMENT.md)
 - [Operations Runbooks](RUNBOOKS.md)
 
 ## Services
