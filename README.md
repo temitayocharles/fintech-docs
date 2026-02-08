@@ -7,6 +7,10 @@
 1. Run tests locally and then push to `main` to trigger CI and image builds.
 1. Argo CD auto-syncs Helm charts from `fintech-gitops`.
 
+## Core Documents
+- [Vault + ESO Mapping](VAULT_ESO_MAPPING.md)
+- [Operations Runbooks](RUNBOOKS.md)
+
 ## Services
 - [Account Service](https://github.com/temitayocharles/fintech-account-service)
 - [Transaction Service](https://github.com/temitayocharles/fintech-transaction-service)
