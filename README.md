@@ -1,7 +1,7 @@
 # Fintech Docs
 
 ## Start Here (Playbook)
-1. Read the platform overview and service map in `fintech-platform/README.md`.
+1. Read the platform overview and service map in this repo.
 1. Pick one service repo and open its README playbook.
 1. Create local config values from the service README, then run tests.
 1. Push to `main` to trigger CI and publish to GHCR.
