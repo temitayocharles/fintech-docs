@@ -1,5 +1,17 @@
 # Fintech Docs
 
+
+## Start Here
+- Read [START_HERE.md](START_HERE.md) for the chronological playbook.
+
+
+## Documentation Index
+- [FIRST_CLUSTER_DEPLOYMENT.md](FIRST_CLUSTER_DEPLOYMENT.md)
+- [HELM_QUICKSTART.md](HELM_QUICKSTART.md)
+- [RUNBOOKS.md](RUNBOOKS.md)
+- [VAULT_BOOTSTRAP_CHECKLIST.md](VAULT_BOOTSTRAP_CHECKLIST.md)
+- [VAULT_ESO_MAPPING.md](VAULT_ESO_MAPPING.md)
+
 ## Start Here (Playbook)
 1. Read the platform overview and service map in this repo.
 1. Pick one service repo and open its README playbook.
